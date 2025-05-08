@@ -8,8 +8,8 @@ screen = pygame.display.set_mode((1280, 720))
 clock = pygame.time.Clock()
 
 # Afbeeldingen laden
-track_image = pygame.image.load("C:\Users\boude\Documents\Race-python\racebaan.jpg").convert()
-car_image_original = pygame.image.load("C:\Users\boude\Documents\Race-python\auto.jpg").convert_alpha()
+track_image = pygame.image.load(r"C:\Users\boude\Documents\Race-python\racebaan.jpg").convert()
+car_image_original = pygame.image.load(r"C:\Users\boude\Documents\Race-python\auto.jpg").convert_alpha()
 
 # Schaal de afbeeldingen
 track_image = pygame.transform.scale(track_image, (1280, 720))
